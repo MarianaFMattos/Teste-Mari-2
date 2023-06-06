@@ -1,0 +1,10 @@
+# o pouco que sei de python..
+
+for i in range(10):
+  resposta = input('É facil utilizar o github?: ')
+  if resposta == SIM:
+    print('Mentira!')
+  elif resposta == NAO:
+    print('Verdade')
+  else:
+    print('Resposta Inválida')
